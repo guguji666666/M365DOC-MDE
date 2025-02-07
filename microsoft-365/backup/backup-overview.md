@@ -30,6 +30,9 @@ Key features include:
 
 - **Partner ecosystem**: Leverage additional features and workflows through integrated partner applications to manage all your backups in one place.
 --->
+> [!Note]
+> Microsoft 365 Backup is currently not available for Government Community Cloud (GCC) organizations. 
+
 ## Scenarios and value proposition
 
 Business continuity assurance is a top-of-mind concern for many companies. Microsoft 365 Backup delivers business continuity peace of mind by providing performance and reliable restore confidence. When evaluating a backup and restore offering, what really matters isn't solely the backup, but the ability to restore your data to a healthy state quickly when you need to do so. Recovering large volumes of content is difficult when copying data at a scale from a remote, air-gapped location requiring weeks or even months to get your business back up and running.
@@ -108,6 +111,8 @@ The following table summarizes expected performance for a normally distributed t
 |More than 1,000    |250/hour<br>Up to 3 TB/hour         |250+/hour<br>Up to 2.7 TB/hour         |
 
 <sup>*Single protection unit OneDrive and SharePoint restores using express restore points can take on average between 10 minutes and 120 minutes.</sup>
+
+<sup>**Exchange Online performance times based on an average sized mailbox of 26K items and a size of 10 GB.  Actual times will depend on the number and size of the items in each mailbox.  For a single mailbox, restore times typically fall in the 200 - 300 item/minute range.</sup>
 
 <!---
 |Scenario |Restore of all protection units* complete |
